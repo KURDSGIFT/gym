@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Karwan Fitness</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#food">Healthy Food</a>
+  <a href="#exercise">Exercises</a>
+  <a href="#ask">Ask AI</a>
+</nav>
+
+<section id="home" class="section">
+  <h1>Welcome to Karwan Fitness</h1>
+  <p>Transform your body. Transform your life.</p>
+</section>
+
+<section id="food" class="section">
+  <h1>Healthy Foods</h1>
+  <div class="card">Grilled Chicken Salad - 350 kcal</div>
+  <div class="card">Oatmeal - 250 kcal</div>
+  <div class="card">Boiled Eggs - 150 kcal</div>
+  <div class="card">Salmon - 367 kcal</div>
+  <div class="card">Greek Yogurt - 120 kcal</div>
+</section>
+
+<section id="exercise" class="section">
+  <h1>Simple Exercises</h1>
+  <div class="card">Push-ups - 100 kcal / 10 min</div>
+  <div class="card">Squats - 90 kcal / 10 min</div>
+  <div class="card">Jump Rope - 200 kcal / 15 min</div>
+  <div class="card">Plank - 40 kcal / 5 min</div>
+</section>
+
+<section id="ask" class="section">
+  <h1>Ask Fitness AI (5 Questions Per Day)</h1>
+  <input type="text" id="question" placeholder="Ask about fitness..." />
+  <button onclick="askAI()">Send</button>
+  <p id="answer"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
